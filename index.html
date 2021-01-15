@@ -1,1 +1,226 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Chad's CSE110 Sandbox </title>
+        <meta name=description content="Learning to use html">
+        <meta name="keywords" content="lab2,CSE110,HTML">
+        <meta name="author" content="Chad Wall">
+        <link rel=icon href=image/favicon.ico sizes=16x16>
+    </head>
+    <body>
+        <template id="secret"><p>It's a secret!</p></template>
+        <header>
+            <h1>Chad's CSE110 Sandbox</h1>
+            <p>Dedicated sandbox for learning how to use html</p>
+            <audio controls>
+                <source src="audio/Welcome_recording.mp3">
+                <p>Your browser does not support this audio</p>
+            </audio>
+        </header>
+        <nav>
+            <h2>Table of Contents</h2>
+            <ol>
+                <li> <a href="#About Me">About Me</a> </li>
+                <ol>
+                    <li> <a href="#Summary">Summary</a> </li>
+                    <li> <a href="#Favorites">Favorites</a> </li>
+                    <li> <a href="#Links">Links</a> </li>
+                </ol>
+                <li> <a href="#Random">Random</a> </li>
+                <li> <a href="#Questionnaire">Questionnaire</a> </li>
+            </ol>
+        </nav>
+        <main>
+            <div id="About Me">
+                <h2>About Me</h2>
+            </div>
+            <p>Just some random computer nerd who plays <i>way</i> too many games. Currently studying at UCSD for my bachelor’s degree. Hobbies include <b>digital art</b> (though not very good), <b>game design</b>, and <b>playing way too games</b> (like I mentioned earlier). </p>
+            <section>
+                <div id="Summary">
+                    <h3>Summary</h3>
+                </div>
+                <figure>
+                    <img src="image/Self Higher Res.png" alt="">
+                    <figcaption>
+                        <p>Picture of me at 'Aiea Loop Trail.</p>
+                    </figcaption>
+                </figure>
+                <p>Name: Chad Makanaokeakua Wall</p>
+                <p>Age: 20</p>
+                <p>Gender: Male <em>(He/Him)</em> </p>
+                
+                <table>
+                    <caption>Classes Currently Enrolled in:</caption>
+                    <colgroup>
+                        <col span="1" style="background-color:rgba(250, 250, 92, 0.856)">
+                        <col span="2" style="background-color:rgba(123, 123, 255, 0.596)">
+                    </colgroup>
+                    <tr>
+                        <th>Class</th>
+                        <th>Professor</th>
+                        <th>Section</th>
+                    </tr>
+                    <tr>
+                        <td>CSE 101</td>
+                        <td>Professor Jones, Miles E</td>
+                        <td>B01</td>
+                    </tr>
+                    <tr>
+                        <td>CSE 110</td>
+                        <td>Professor Powell, Thomas Allan</td>
+                        <td>A50</td>
+                    </tr>
+                    <tr>
+                        <td>CSE 151A</td>
+                        <td>Professor Chaudhuri, Kamalika</td>
+                        <td>A01</td>
+                    </tr>
+                    <tr>
+                        <td>PHIL 28</td>
+                        <td>Professor Bazargan-Forward, Saba</td>
+                        <td>A01</td>
+                    </tr>
+                </table>
+                </ul>
+                <hr>
+                <div id="Favorites">
+                    <h3>Favorites</h3>
+                </div>
+                <p>Favorite Game: Fallout: New Vegas</p>
+                <details>
+                    <summary>Fallout New Vegas</summary>
+                    <p>Fallout New Vegas is a first-person role playing game set in a post-apocalyptic Nevada/California. The game was developed by Obsidian  and published by Bethesda in 2010.</p>
+                </details>
+                <p>Favorite Color: <span style = "color:green"> Green</span></p>
+                <p>Favorite Book: Catch-22</p>
+                <picture>
+                    <source media="(min-width:540px)" srcset="image/fav_book.jpg">
+                    <img src="image/fav_book_smaller.jpg" alt="" width="540" height="500">
+                    <figcaption>Personal copy since I was in highschool</figcaption>
+                </picture>
+                <p>Favorite HTML tag: <code>table</code></p>
+                <p>Favorite Classes in UCSD (So far):</p>
+                <ul>
+                    <li><strong>CSE 100</strong> with Professor Cao, Yingjun</li>
+                    <li><strong>CSE 130</strong> with Professor Polikarpova, Nadezhda</li>
+                    <li><strong>CSE 30</strong> with Professor Ord, Richard</li>
+                </ul>
+                <p>Favorite Haiku: </p>
+                <p>In the twilight rain <br>
+                   these brilliant-hued hibiscus -<br>
+                   A lovely sunset.</p>
+                <p>- Matsuo Basho</p>
+                <aside>
+                    <p>Matsuo Basho was a famous Japanese poet who lived from 1644 to 1694. Basho is especially known for being one of the greatest haiku poets of all time.</p>
+                </aside>
+                <p>Favorite snippet of code (not mine, originally from Quake III):</p>
+                <pre><code>float Q_rsqrt( float number )
+{
+    long i;
+    float x2, y;
+    const float threehalfs = 1.5F;
+                    
+    x2 = number * 0.5F;
+    y  = number;
+    i  = * (long * ) &y;
+    i  = 0x5f3759df - ( i >> 1 );
+    y  = * ( float * ) &i;
+    y  = y * ( threehalfs - ( x2 * y * y ) );
+                    
+    return y;
+}</code></pre>
+                <a href="https://www.youtube.com/watch?v=p8u_k2LIZyo">(Source & Explanation)</a>
+                <hr>
+                <div id="Links">
+                    <h3>Links</h3>
+                </div>
+                <ul>
+                    <li> <a href="https://www.linkedin.com/in/chad-wall-072131194/">Linkedin</a> </li>
+                    <li> <a href="https://piazza.com/careers/dashboard#/my_profile/jml95fggn794yz">Piazza</a> </li>
+                </ul>
+                
+            </section>
+            <section>
+                <div id="Random">
+                    <h2>Random</h2>
+                </div>
+                <h4>Denver:</h4>
+                <video width="500" height="250" controls>
+                    <source src="video/Denver.mp4">
+                </video>
+                <h4>Funny Video:</h4>
+                <iframe src="https://www.youtube.com/watch?v=t-XOlgAZTlM" title="The Giant"></iframe>
+                <h4>The Great Empty Canvas:</h4>
+                <canvas width="200" height="100" style="border:1px solid #000000"></canvas>
+                <p>Courtesy of: <a href="https://www.w3schools.com/html/html5_canvas.asp">W3 Schools</a></p>
+                <h4>A Cool Right Triangle:</h4>
+                <svg wifth="50" height="50">
+                    <polygon points="0,50 0,0, 50,50" style="fill:green" />
+                </svg>
+                <p><button type="button">A <em>Useless</em> Button</button></p>
+            </section>
+            <section>
+                <div id="Questionnaire">
+                    <h2>Questionnaire</h2>
+                </div>
+                <p>Questionnaires are purely mockups right now and doesn't actually get sent anywhere.</p>
+                <form>
+                    <fieldset>
+                        <legend>Survey</legend>
+                        <p> <label>Name:</label> <input name="name" type="text"> </p>
+                        <p>Gender:</p>
+                        <p> <input type="radio" name="gender" value="male">Male</input> </p>
+                        <p> <input type="radio" name="gender" value="female">Female</input> </p>
+                        <p> <input type="radio" name="gender" value="other">Other</input> </p>
+                        <p> <label>Check if you're currently taking CSE110:</label> <input name="taking110" type="checkbox"> </p>
+                        <p> <label>Favorite Hobby:</label> <input name="hobby" type="text" list="hobbies"></p>
+                        <datalist id="hobbies">
+                            <option value="cooking">
+                            <option value="gaming">
+                            <option value="sewing">
+                            <option value="painting">
+                            <option value="hiking">
+                            <option value="surfing">
+                            <option value="camping">
+                            <option value="fishing">
+                        </datalist>
+                        <p><label>Choose your favorite class: </label>
+                        <select name="class" id="class">
+                            <optgroup label="CSE">
+                                <option value="cse12">CSE 12</option>
+                                <option value="cse30">CSE 30</option>
+                                <option value="cse100">CSE 100</option>
+                                <option value="cse105">CSE 105</option>
+                                <option value="cse110">CSE 110</option>
+                            </optgroup>
+                            <optgroup label="MATH">
+                                <option value="math20c">MATH 20C</option>
+                                <option value="math18">MATH 18</option>
+                            </optgroup>
+                        </select>
+                        </p>
+                        <p> <label>Favorite Color:</label> <input name="color" type="color"> </p>
+                        <p> <label>Favorite Number:</label> <input name="number" type="number"> </p>
+                        <p> <label>Favorite Time of Day:</label> <input name="time" type="time"> </p>
+                        <p> <label>Favorite Meme:</label> <input name="meme" type="file"></p>
+                        <p> <label>Birthday: </label> <input name="bday" type="date"> </p>
+                        <p> <label>Contact Email:</label> <input name="email" type="email"> </p>
+                        <p> <input type="submit" value="Submit!"></input> <input type="reset" value="Reset Input"></input> </p>
+                    </fieldset>
+                </form>
+                <form>
+                    <fieldset>
+                        <legend>Review My Page:</legend>
+                        <p><label>Comments:</label></p>
+                        <p><textarea name="comments"> </textarea></p>
+                        <p><input type="submit" value="Submit Review!"></input></p>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Made By: Chad Wall</p>
+            <p> <a href="mailto:cmwall@ucsd.edu">cmwall@ucsd.edu</a> </p>
+        </footer>
+    </body>
+</html>
