@@ -20,18 +20,19 @@
         <nav>
             <h2>Table of Contents</h2>
             <ol>
-                <li> <a href="#About Me">About Me</a> </li>
-                <ol>
-                    <li> <a href="#Summary">Summary</a> </li>
-                    <li> <a href="#Favorites">Favorites</a> </li>
-                    <li> <a href="#Links">Links</a> </li>
-                </ol>
+                <li> <a href="#AboutMe">About Me</a>
+                    <ol>
+                        <li> <a href="#Summary">Summary</a> </li>
+                        <li> <a href="#Favorites">Favorites</a> </li>
+                        <li> <a href="#Links">Links</a> </li>
+                    </ol>
+                </li>
                 <li> <a href="#Random">Random</a> </li>
                 <li> <a href="#Questionnaire">Questionnaire</a> </li>
             </ol>
         </nav>
         <main>
-            <div id="About Me">
+            <div id="AboutMe">
                 <h2>About Me</h2>
             </div>
             <p>Just some random computer nerd who plays <i>way</i> too many games. Currently studying at UCSD for my bachelor’s degree. Hobbies include <b>digital art</b> (though not very good), <b>game design</b>, and <b>playing way too games</b> (like I mentioned earlier). </p>
@@ -40,7 +41,7 @@
                     <h3>Summary</h3>
                 </div>
                 <figure>
-                    <img src="image/Self Higher Res.png" alt="">
+                    <img src="image/self_higher_res.png" alt="">
                     <figcaption>
                         <p>Picture of me at 'Aiea Loop Trail.</p>
                     </figcaption>
@@ -81,7 +82,6 @@
                         <td>A01</td>
                     </tr>
                 </table>
-                </ul>
                 <hr>
                 <div id="Favorites">
                     <h3>Favorites</h3>
@@ -96,7 +96,6 @@
                 <picture>
                     <source media="(min-width:540px)" srcset="image/fav_book.jpg">
                     <img src="image/fav_book_smaller.jpg" alt="" width="540" height="500">
-                    <figcaption>Personal copy since I was in highschool</figcaption>
                 </picture>
                 <p>Favorite HTML tag: <code>table</code></p>
                 <p>Favorite Classes in UCSD (So far):</p>
@@ -154,7 +153,7 @@
                 <canvas width="200" height="100" style="border:1px solid #000000"></canvas>
                 <p>Courtesy of: <a href="https://www.w3schools.com/html/html5_canvas.asp">W3 Schools</a></p>
                 <h4>A Cool Right Triangle:</h4>
-                <svg wifth="50" height="50">
+                <svg width="50" height="50">
                     <polygon points="0,50 0,0, 50,50" style="fill:green" />
                 </svg>
                 <p><button type="button">A <em>Useless</em> Button</button></p>
@@ -169,9 +168,9 @@
                         <legend>Survey</legend>
                         <p> <label>Name:</label> <input name="name" type="text"> </p>
                         <p>Gender:</p>
-                        <p> <input type="radio" name="gender" value="male">Male</input> </p>
-                        <p> <input type="radio" name="gender" value="female">Female</input> </p>
-                        <p> <input type="radio" name="gender" value="other">Other</input> </p>
+                        <p> <input type="radio" name="gender" value="male"> Male </input> </p>
+                        <p> <input type="radio" name="gender" value="female"> Female </input> </p>
+                        <p> <input type="radio" name="gender" value="other"> Other </input> </p>
                         <p> <label>Check if you're currently taking CSE110:</label> <input name="taking110" type="checkbox"> </p>
                         <p> <label>Favorite Hobby:</label> <input name="hobby" type="text" list="hobbies"></p>
                         <datalist id="hobbies">
