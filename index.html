@@ -121,9 +121,9 @@
                     
     x2 = number * 0.5F;
     y  = number;
-    i  = * (long * ) &amp y;
+    i  = * (long * ) &amp;y;
     i  = 0x5f3759df - ( i >> 1 );
-    y  = * ( float * ) &amp i;
+    y  = * ( float * ) &amp;i;
     y  = y * ( threehalfs - ( x2 * y * y ) );
                     
     return y;
