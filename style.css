@@ -6,8 +6,23 @@
 
 }
 
-footer {
+main {
+    padding-bottom: 40px;
+}
 
+footer {
+    position: fixed;
+    background-color: #263238;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    height: 40px;
+    width: 100vw;
+    color:rgba(245, 245, 245, 1);
+}
+
+footer p a {
+    color:rgb(173, 216, 230);
 }
 
 div[id] {
@@ -15,7 +30,7 @@ div[id] {
 }
 
 a:hover {
-    
+
 }
 
 em, i {
