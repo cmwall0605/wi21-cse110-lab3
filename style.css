@@ -25,7 +25,7 @@ main {
     padding-bottom: 40px;
 }
 
-p {
+p, li, caption, summary {
     font-family: "IBM Sans";
 }
 
@@ -44,15 +44,7 @@ footer p a {
     color:rgb(173, 216, 230);
 }
 
-h1 {
-    font-family: "Vollkorn SC";
-}
-
-h2 {
-    font-family: "Vollkorn SC";
-}
-
-h4 {
+h1, h2, h4 {
     font-family: "Vollkorn SC";
 }
 
