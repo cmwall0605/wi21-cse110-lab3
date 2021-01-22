@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Vollkorn SC";
+    src: url("font/VollkornSC-Regular.woff") format("woff")
+}
+
+@font-face {
+    font-family: "IBM Sans";
+    src: url("font/IBMPlexSans-Regular.woff") format("woff")
+}
+
+@font-face {
+    font-family: "IBM Mono";
+    src: url("font/IBMPlexMono-Regular.woff") format("woff")
+}
+
 .random {
 
 }
@@ -10,6 +25,10 @@ main {
     padding-bottom: 40px;
 }
 
+p, li, caption, summary {
+    font-family: "IBM Sans";
+}
+
 footer {
     position: fixed;
     background-color: #162230;
@@ -18,19 +37,24 @@ footer {
     font-size: 12px;
     height: 40px;
     width: 100vw;
-    color:rgba(245, 245, 245, 1);
+    color:rgba(245, 247, 250, 1);
 }
 
 footer p a {
     color:rgb(173, 216, 230);
 }
 
-div[id] {
+h1, h2, h4 {
+    font-family: "Vollkorn SC";
+}
 
+div[id] {
+    font-family: "Vollkorn SC";
 }
 
 a:hover {
-
+    color: white;
+    background-color: black;
 }
 
 em, i {
@@ -42,7 +66,8 @@ figcaption p {
 }
 
 pre > code {
-
+    font-family: "IBM Mono";
+    color: white;
 }
 
 p + aside {
