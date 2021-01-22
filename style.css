@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: "Vollkorn SC";
     src: url("font/VollkornSC-Regular.woff") format("woff")
@@ -13,21 +14,48 @@
     src: url("font/IBMPlexMono-Regular.woff") format("woff")
 }
 
-.random {
-
+/* Classes */
+.section {
+    text-align: left;
+    padding-top: 10px;
+    text-decoration: underline;
+    position: sticky;
 }
 
-#favorite {
+/* Fonts */
+#Denver {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 0;
+    width: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+}
 
+/* Element Selectors */
+video {
+    padding-bottom: 50px;
+    width: 50%;
+    height: 50%;
 }
 
 main {
     padding-bottom: 40px;
 }
 
+form {
+    margin: auto;
+}
+
 p, li, caption, summary {
+    position: static;
     font-family: "IBM Sans";
 }
+
 
 footer {
     position: fixed;
@@ -38,18 +66,34 @@ footer {
     height: 40px;
     width: 100vw;
     color:rgba(245, 247, 250, 1);
+    text-align: left;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Vollkorn SC";
+}
+
+em, b {
+    color: #9f9;
+    font-size: 1.25em;
+    display: inline;
+}
+
+pre {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+pre, code {
+    background-color: black;
+    width: 5in;
 }
 
 footer p a {
     color:rgb(173, 216, 230);
 }
 
-h1, h2, h4 {
-    font-family: "Vollkorn SC";
-}
-
-div[id] {
-    font-family: "Vollkorn SC";
+div[id="code"] {
 }
 
 a:hover {
@@ -62,27 +106,21 @@ a:active {
     background-color: white;
 }
 
-em, i {
-
-}
-
-figcaption p {
-
-}
-
 pre > code {
     font-family: "IBM Mono";
     color: white;
 }
 
-p + aside {
+img + figcaption {
+    padding: 0 0 0 10mm;
+}
+
+p ~ aside{
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
-colgroup ~ caption{
-
-}
-
-p.random {
-
+em.pronouns {
+    display: block;
 }
