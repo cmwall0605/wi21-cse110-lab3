@@ -39,7 +39,7 @@
             </ol>
         </nav>
         <main>
-            <div id="AboutMe">
+            <div class="section" id="AboutMe">
                 <h2>About Me</h2>
             </div>
             <p>Just some random computer nerd who plays <i>way</i> too many games. Currently studying at UCSD for my bachelor’s degree. Hobbies include <b>digital art</b> (though not very good), <b>game design</b>, and <b>playing way too games</b> (like I mentioned earlier). </p>
@@ -55,7 +55,7 @@
                 </figure>
                 <p>Name: Chad Makanaokeakua Wall</p>
                 <p>Age: 20</p>
-                <p>Gender: Male <em>(He/Him)</em> </p>
+                <p>Gender: Male <em class="pronouns">(He/Him)</em> </p>
                 
                 <table>
                     <caption>Classes Currently Enrolled in:</caption>
@@ -89,11 +89,10 @@
                         <td>A01</td>
                     </tr>
                 </table>
-                <hr>
                 <div id="Favorites">
                     <h3>Favorites</h3>
                 </div>
-                <p>Favorite Game: Fallout: New Vegas</p>
+                <p>Favorite Game: </p>
                 <details>
                     <summary>Fallout New Vegas</summary>
                     <p>Fallout New Vegas is a first-person role playing game set in a post-apocalyptic Nevada/California. The game was developed by Obsidian  and published by Bethesda in 2010.</p>
@@ -120,7 +119,9 @@
                     <p>Matsuo Basho was a famous Japanese poet who lived from 1644 to 1694. Basho is especially known for being one of the greatest haiku poets of all time.</p>
                 </aside>
                 <p>Favorite snippet of code (not mine, originally from Quake III):</p>
-                <pre><code>float Q_rsqrt( float number )
+                <div class="qsrt">
+                    <pre>
+<code>float Q_rsqrt( float number )
 {
     long i;
     float x2, y;
@@ -134,9 +135,10 @@
     y  = y * ( threehalfs - ( x2 * y * y ) );
                     
     return y;
-}</code></pre>
+}</code>
+</pre>
+                </div> 
                 <a href="https://www.youtube.com/watch?v=p8u_k2LIZyo">(Source & Explanation)</a>
-                <hr>
                 <div id="Links">
                     <h3>Links</h3>
                 </div>
@@ -146,14 +148,17 @@
                 </ul>
                 
             </section>
+            <hr>
             <section>
-                <div id="Random">
+                <div class="section" id="Random">
                     <h2>Random</h2>
                 </div>
-                <h4>Denver:</h4>
-                <video width="500" height="250" controls>
-                    <source src="video/Denver.mp4">
-                </video>
+                <div id="Denver">
+                    <h4>Denver:</h4>
+                    <video controls>
+                        <source src="video/Denver.mp4">
+                    </video>
+                </div>
                 <h4>Funny Video:</h4>
                 <iframe src="https://www.youtube.com/watch?v=t-XOlgAZTlM" title="The Giant"></iframe>
                 <h4>The Great Empty Canvas:</h4>
@@ -165,8 +170,9 @@
                 </svg>
                 <p><button type="button">A <em>Useless</em> Button</button></p>
             </section>
+            <hr>
             <section>
-                <div id="Questionnaire">
+                <div class="section" id="Questionnaire">
                     <h2>Questionnaire</h2>
                 </div>
                 <p>Questionnaires are purely mockups right now and doesn't actually get sent anywhere.</p>
