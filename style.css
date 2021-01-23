@@ -29,7 +29,6 @@
     margin-bottom: auto;
     margin-right: auto;
     margin-left: 0;
-    width: 50%;
     border-style: solid;
     border-color: white;
     border-width: 1px;
@@ -39,7 +38,7 @@
 /* Element Selectors */
 video {
     padding-bottom: 50px;
-    width: 50%;
+    max-width: 70%;
     height: 50%;
 }
 
@@ -49,6 +48,11 @@ main {
 
 form {
     margin: auto;
+}
+
+iframe {
+    min-width: 50%;
+    height: auto;
 }
 
 p, li, caption, summary {
@@ -93,7 +97,8 @@ footer p a {
     color:rgb(173, 216, 230);
 }
 
-div[id="code"] {
+div[id="desc"] {
+    max-width: 50%;
 }
 
 a:hover {
